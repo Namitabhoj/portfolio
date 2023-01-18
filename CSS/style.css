@@ -14,13 +14,12 @@ html,body{
 nav{
   width: 100vw;
   display: flex;
-  position: fixed;  
 }
 
 .logo{
-  /* padding: 3vh 3vw; */
+  padding: 3vh 3vw;
   text-align: left;
-  width: 20vw;
+  width: 48vw;
 }
 
 .logo img{
@@ -30,17 +29,15 @@ nav{
 
 .nav-links{
   display: flex;
-  width: 80vw;
+  width: 50vw;
   justify-content: space-between;
   align-items: center;
   list-style: none
 }
 
 .nav-links li a{
-  margin: 0 0.7vw;
   text-decoration: none;
   transition: all ease-in-out 350ms;
-  padding: 10px;
   color: #252525;
 }
 
@@ -61,13 +58,111 @@ nav{
   display: none;
 }
 
+.container{
+  display: flex;
+  margin-top: 7rem;
+  justify-content: center;
+}
+
+.conatainer_box_one{
+  width: 35%;
+}
+
+.container_box_one_intro{
+  color: #252525;
+  text-align: end;
+  font-size: 60px;
+  padding: 4rem 1rem 0 0;
+}
+
+.container_box_one_intro_sub_text{
+  float: right;
+  padding: 5px;
+  width: 150px;
+  text-align: end;
+  font-size: 27px;
+  color: #ffffff;
+  background-color: #252525;
+}
+
+.container_box_two{
+  background-color: #252525;
+  height: 27rem;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contaner_box_two_intro{
+  color: #ffffff;
+  font-size: 60px;
+  padding: 4rem 0 0 1rem;
+}
+
+.container_box_two_intro_sub_text{
+  text-align: left;
+  float: left;
+  padding: 5px;
+  width: 35%; 
+  font-size: 27px;
+  color: #252525;
+  background-color: #fff;
+}
+
+.container_box_two_intro_text{
+  padding:20px 0 0 5px;
+  width: 45%; 
+  color: #9d9d9d;
+  word-spacing: 2px;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.diff_color{
+  color: #ffffff;
+}
+
+.container_box_two_icons{
+  height: 100%;
+  position: relative;
+}
+
+.icon_git{
+  height: 30px;
+  width: 30px;
+  position:absolute;
+  bottom:10px;
+  right:117px;
+}
+
+.icon_linkedin{
+  height: 30px;
+  width: 30px;
+  position:absolute;
+  bottom:10px;
+  right:80px;
+}
+
+.button_resume{
+  position:absolute;
+  bottom:10px;
+  right:5px;
+  background-color: #ffffff;
+  color: #252525;
+  padding: 7px;
+  border: none;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
 @media screen and (max-width: 800px){
   .hamburger{
     display:block;
     position: absolute;
     cursor: pointer;
     right: 5%;
-    top: 50%;
+    top: 3%;
     transform: translate(-5%, -50%);
     z-index: 2;
     transition: all 0.7s ease;
