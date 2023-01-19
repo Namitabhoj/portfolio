@@ -187,6 +187,7 @@ section {
   align-items: center;
   justify-content: center;
 }
+
 .container-one {
   width: 100%;
   max-width: 1000px;
@@ -195,6 +196,7 @@ section {
   align-items: center;
   justify-content: center;
 }
+
 .left {
   width: 100%;
   height: 450px;
@@ -203,6 +205,7 @@ section {
   align-items: center;
   justify-content: center;
 }
+
 .right {
   background: url("./images/profile_image.jpg")no-repeat center / cover;
   width: 30%;
@@ -210,6 +213,7 @@ section {
   padding: 30px;
   margin-left: -150px;
 }
+
 .left p {
   font-weight: 500;
   line-height: 25px;
@@ -219,7 +223,98 @@ section {
   line-height: 37px;
 }
 
-@media only screen and (max-width: 768px) {
+.experience{
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+
+}
+
+.experience_content{
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.experience_header{
+  border-bottom: 1px solid #252525;
+  border-right: 1px solid #252525;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.empty_space{
+  width: 750px;
+  border-bottom: 1px solid #252525;
+}
+
+.experience_buttons_text{
+  display: flex;
+  justify-content: center;
+  height: 350px;
+}
+
+.experience_buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid #252525;
+}
+
+.experience_buttons button{
+  font-size: 20px;
+  border: none;
+  background-color: #ffffff;
+  margin: 24px;
+  padding: 10px;
+}
+
+.experience_buttons button:hover{
+  background-color: #252525;
+  color: #ffffff;
+}
+
+.my-button.active {
+  background-color: #252525;
+  color: white;
+}
+
+.experience_texts_company{
+  display: flex;
+  align-items: baseline;
+}
+
+.experience_texts{
+  width: 750px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.experience_texts_title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.experience_texts_duration{
+  font-size: 15px;
+}
+
+.experience_texts_description{
+  height: 80%;
+  background-color: #252525; 
+  color: #ffffff;
+  padding: 20px;
+  line-height: 25px;
+}
+
+.experience_texts_description li {
+  list-style-type: disclosure-closed;
+}
+
+
+/* @media only screen and (max-width: 768px) {
   .container {
     flex-direction: column;
     width: 100%;
@@ -234,7 +329,7 @@ section {
     margin: 0;
     margin-top: -100px;
   }
-}
+} */
 
 @media screen and (max-width: 800px){
   .hamburger{
