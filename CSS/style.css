@@ -39,6 +39,7 @@ nav{
   text-decoration: none;
   transition: all ease-in-out 350ms;
   color: #252525;
+  padding: 10px;
 }
 
 .nav-links li a:hover{
@@ -313,6 +314,91 @@ section {
   list-style-type: disclosure-closed;
 }
 
+.education_description{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.education_description_diploma {
+  width: 50%;
+  background-color: #252525;
+  color: #ffffff;
+  margin: 15px;
+  padding: 30px;
+  line-height: 35px;
+
+}
+
+.education_description_engineering{
+  width: 50%;
+  background-color: #252525;
+  color: #ffffff;
+  margin: 15px;
+  padding: 30px;
+  line-height: 35px;
+}
+
+.education_description_title{
+  font-size: 25px;
+}
+
+.education_skills{
+  display: flex;
+  align-items: center;
+
+}
+
+.education_skills_icons{
+  width: 70%;
+  height: 100%;
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(8, 129px);
+  grid-template-rows: repeat(3, 107px);
+  justify-items: center;
+  align-items: center;
+}
+
+.education_skills_icons_container{
+  width: 50px;
+  height: 50px;
+}
+
+.education_skills_icons img{
+  height: 100%;
+  width: 100%;
+}
+
+.container_icon p{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+} 
+
+.education_skills_crtificate{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.education_skills_crtificate_container{
+  margin: 20px;
+  /* border-bottom: 1px solid #252525  ; */
+}
+
+.crtificate_title{
+  font-size: 20px;
+}
+
+.crtificate_sub_title{
+  font-size: 14px;
+  padding: 5px;
+}
 
 /* @media only screen and (max-width: 768px) {
   .container {
