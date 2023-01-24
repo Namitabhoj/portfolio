@@ -788,7 +788,12 @@ section {
 .project_grid {
   display: flex;
   flex-wrap: wrap;
-justify-content: space-evenly;  
+  justify-content: space-evenly;  
+  margin: 0;
+}
+
+.project_grid_text{
+  display: none;
 }
 
 .project_grid_item {
