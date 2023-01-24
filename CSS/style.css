@@ -773,7 +773,7 @@ section {
   grid-template-rows: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
   justify-items: center;
   align-items: center;
-  margin-bottom: 80px;
+  margin: 0 25px 80px 20px;
 }
 
 .education_skills_crtificate {
