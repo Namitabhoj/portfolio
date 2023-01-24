@@ -1,17 +1,11 @@
+console.log("Art_Plus_Code")
+
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links li");
 
-hamburger.addEventListener('click', ()=>{
-   //Links
-    navLinks.classList.toggle("open");
-    links.forEach(link => {
-        link.classList.toggle("fade");
-    });
+console.log("Art_Plus_Code")
 
-    //Animation
-    hamburger.classList.toggle("toggle");}
-);
 
 // Get all the buttons
 const buttons = document.querySelectorAll('.my-button');

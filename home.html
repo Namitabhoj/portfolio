@@ -16,22 +16,16 @@
 			<div class="logo">
 				<img  src="CSS/images/light_theme_icon.png" alt="Logo Image">
 			</div>
-			<div class="hamburger">
-				<div class="bars1"></div>
-				<div class="bars2"></div>
-				<div class="bars3"></div>
-			</div>
 			<ul class="nav-links">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">My Experince</a></li>
-				<li><a href="#">My Education</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#experience">My Experince</a></li>
+				<li><a href="#education">My Education</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
-	<div class="home">
+	<div class="home" id="home">
 		<div class="container">
 			<div class="conatainer_box_one">
 				<div class="container_box_one_intro">
@@ -58,14 +52,20 @@
 					</p>
 				</div>
 				<div class="container_box_two_icons">
-					<img class="icon_git" src="./CSS/icons/git.png">
-					<img class="icon_linkedin" src="./CSS/icons/linkedIn.png">
-					<button class="button_resume">Resume</button>
+					<a href="https://github.com/Namitabhoj" target="_blank"><img class="icon_git" src="./CSS/icons/git.png"></a>
+					<a href="https://www.linkedin.com/in/namita-bhoj/" target="_blank"><img class="icon_linkedin" src="./CSS/icons/linkedIn.png"></a>
+					<a href="/CSS/file/Namita_bhoj_resume.pdf" download="Namita_bhoj_resume.pdf">
+					<button class="button_resume">Resume</button></a>
 				</div>
 			</div>
 		</div>
+		<div class="container_mobile">
+			<div>
+				<h1>hiiiiii</h1>
+			</div>
+		</div>
 	</div>
-	<div class="about">
+	<div class="about" id="about">
 		<div class="title_header">
 			<div>
 				<p class="title_header_text_one">About</p>
@@ -92,7 +92,7 @@
 			</div>
 		</section>	
 	</div>
-	<div class="experience">
+	<div class="experience" id="experience">
 		<div class="title_header">
 			<div>
 				<p class="title_header_text_one">My </p>
@@ -136,7 +136,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="education">
+	<div class="education" id="education">
 		<div class="title_header">
 			<div>
 				<p class="title_header_text_one">My </p>
@@ -187,7 +187,6 @@
 						<p>JavaScript</p> 
 					</div>
 				</div>
-				
 				<div class="education_skills_icons_container">
 					<img src="./CSS/icons/typescript.png"></img>
 					<div class="container_icon">
@@ -340,10 +339,164 @@
 			</div>
 		</div>
 	</div>
-	<div class="projects">
-
+	<div class="projects" id="projects">
+		<div class="title_header">
+			<div>
+				<p class="title_header_text_one">My </p>
+			</div>
+			<div>
+				<p class="title_header_text_two"> Projects!</p>
+			</div>
+		</div>
+		<div class="project_grid">
+			<div class="project_grid_item">
+				<img src="./CSS/images/dating_app.png" class="project_grid_text_img"></img> 
+				<div class="project_grid_text">
+					<p class="project_grid_text_title">Dating Site</p> 
+					<p class="project_grid_text_sub_title">PHP,  HTML,  CSS,  JavaScript,  mySQL</p> 
+					<a class="project_grid_text_git_icon" href="https://github.com/Namitabhoj/DatingSite" target="_blank"><img src="./CSS/icons/git.png" class="project_grid_text_git_icon" style=" height: 30px; width: 30px;"></a>
+				</div>
+			</div>
+			<div class="project_grid_item">
+				<img src="./CSS/images/cofy_store.png" class="project_grid_text_img"></img> 
+				<div class="project_grid_text">
+					<p class="project_grid_text_title">Confy Store</p> 
+					<p class="project_grid_text_sub_title">HTML, CSS, JavaScript</p> 
+					<a class="project_grid_text_git_icon" href="https://github.com/Namitabhoj/comfy-store" target="_blank"><img src="./CSS/icons/git.png" class="project_grid_text_git_icon" style=" height: 30px; width: 30px;"></a>
+				</div>
+			</div>
+			<div class="project_grid_item">
+				<img src="./CSS/images/lifestyle_store.png" class="project_grid_text_img"></img> 
+				<div class="project_grid_text">
+					<p class="project_grid_text_title">LifeStyle Store</p> 
+					<p class="project_grid_text_sub_title">PHP, HTML, CSS, JavaScript, Bootstrap</p> 
+					<a class="project_grid_text_git_icon" href="https://github.com/Namitabhoj/OnlineStoreHomePage" target="_blank" ><img src="./CSS/icons/git.png" class="project_grid_text_git_icon" style=" height: 30px; width: 30px;"></a>
+				</div>
+			</div>
+			<div class="project_grid_item">
+				<img src="./CSS/images/employee_details.png" class="project_grid_text_img"></img> 
+				<div class="project_grid_text">
+					<p class="project_grid_text_title">Employee Details</p> 
+					<p class="project_grid_text_sub_title">PHP, mySQL, HTML, CSS, JavaScript</p> 
+					<a class="project_grid_text_git_icon" href="https://github.com/Namitabhoj/employees_details" target="_blank"><img src="./CSS/icons/git.png" class="project_grid_text_git_icon" style=" height: 30px; width: 30px;"></a>
+				</div>
+			</div>
+			<div class="project_grid_item">
+				<img src="./CSS/images/consert.png" class="project_grid_text_img"></img> 
+				<div class="project_grid_text">
+					<p class="project_grid_text_title">Consert Site</p> 
+					<p class="project_grid_text_sub_title">HTML, SCSS, JavaScript</p> 
+					<a class="project_grid_text_git_icon" href="https://github.com/Namitabhoj/Concert-Website" target="_blank" ><img src="./CSS/icons/git.png" class="project_grid_text_git_icon" style=" height: 30px; width: 30px;"></a>
+				</div>
+			</div>
+			<div class="project_grid_item">
+				<img src="./CSS/images/flow.png" class="project_grid_text_img"></img> 
+				<div class="project_grid_text">
+					<p class="project_grid_text_title">Flow App</p> 
+					<p class="project_grid_text_sub_title">Kotlin, SQLite</p> 
+					<a class="project_grid_text_git_icon" href="https://github.com/Namitabhoj/Flow-period-tracking-App" target="_blank"><img src="./CSS/icons/git.png" class="project_grid_text_git_icon" style=" height: 30px; width: 30px;"></a>
+				</div>
+			</div>
+			<div class="project_grid_item">
+				<img src="./CSS/images/test house.png" class="project_grid_text_img"></img> 
+				<div class="project_grid_text">
+					<p class="project_grid_text_title">Test House</p> 
+					<p class="project_grid_text_sub_title">HTML, CSS, JavaScript</p> 
+					<a class="project_grid_text_git_icon" href="https://github.com/Namitabhoj/Test-House" target="_blank"><img src="./CSS/icons/git.png" class="project_grid_text_git_icon" style=" height: 30px; width: 30px;"></a>
+				</div>
+			</div>
+			<div class="project_grid_item">
+				<img src="./CSS/images/discort music.png" class="project_grid_text_img"></img> 
+				<div class="project_grid_text">
+					<p class="project_grid_text_title">Discort site</p> 
+					<p class="project_grid_text_sub_title">HTML, CSS, REACT, API</p> 
+					<a class="project_grid_text_git_icon" href="https://github.com/Namitabhoj/Discogs-API-React-App" target="_blank"><img src="./CSS/icons/git.png" class="project_grid_text_git_icon" style=" height: 30px; width: 30px;"></a>
+				</div>
+			</div>
+			<div class="project_grid_item">
+				<img src="./CSS/images/restraunt site.png" class="project_grid_text_img"></img> 
+				<div class="project_grid_text">
+					<p class="project_grid_text_title">Restraunt site</p> 
+					<p class="project_grid_text_sub_title">PHP, HTML, CSS, JavaScript</p> 
+					<a class="project_grid_text_git_icon" href="https://github.com/Namitabhoj/Responsive-restaurant-website" target="_blank" ><img src="./CSS/icons/git.png" class="project_grid_text_git_icon" style=" height: 30px; width: 30px;"></a>
+				</div>
+			</div>
+			<div class="more_project_button">
+				<div>
+					<a href="https://github.com/Namitabhoj?tab=repositories" target="_blank">
+						<button class="more_project_button_text">
+							More Projects
+						</button>
+					</a>
+				</div>
+				
+			</div>
+		</div>
 	</div>
-	
+	<div class="contact" id="contact">
+		<div class="title_header">
+			<div>
+				<p class="title_header_text_one">Contact </p>
+			</div>
+			<div>
+				<p class="title_header_text_two"> Me!</p>
+			</div>
+		</div>
+		<div class="contact_intro_text">
+			<div>
+				<p class="contact_intro_text_p">
+					Whether you have a question or just want to say hi,👋
+				</p>
+			</div>
+		</div>
+		<div class="contact_intro_intro">
+			<div class="contact_intro_intro_one_half">
+				<div class="contact_intro_intro_p">
+					<p>Get in </p>
+				</div>
+				<div class="contact_intro_intro_icons">
+					<div class="contact_intro_intro_icon">
+						<a href="mailto: namitabhoj@gmail.com"><img src="./CSS/icons/email.png"></a>
+						<a href="mailto: namitabhoj@gmail.com"><p>namitabhoj67@gmail.com</p></a>
+					</div>
+					<div class="contact_intro_intro_icon">
+						<img src="./CSS/icons/location.png">
+						<p>Ontario, CANADA</p>
+					</div>
+					<div class="contact_intro_intro_icon">
+						<img src="./CSS/icons/worldwide.png">
+						<p> Learn things </p>
+					</div>
+				</div>
+			</div>
+			<div class="contact_intro_intro_two_half">
+				<div>
+					<p class="contact_intro_intro_p_two">Touch !</p>
+				</div>
+				<div class="contact_intro_intro_icons">
+					<div class="contact_intro_intro_icon_two">
+						<a href="https://github.com/Namitabhoj" target="_blank"><img src="./CSS/icons/git.png" ></a>
+						<a href="https://github.com/Namitabhoj" target="_blank"><p>Github</p></a>
+					</div>
+					<div class="contact_intro_intro_icon_two">
+						<a href="https://www.linkedin.com/in/namita-bhoj/" target="_blank"><img src="./CSS/icons/linkedIn.png"></a>
+						<a href="https://www.linkedin.com/in/namita-bhoj/" target="_blank"><p>LinkedIn</p></a>
+					</div>
+					<div class="contact_intro_intro_icon_two">
+						<a href="https://codepen.io/Namitabhoj" target="_blank"><img src="./CSS/icons/codepen.png"></a>
+						<a href="https://codepen.io/Namitabhoj" target="_blank"><p> Codepen </p></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer_text">
+				<p>
+					Designed & Built by Namita Bhoj
+				</p>
+			</div>
+		</div>
+	</div>
 <script src="./JS/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script>
