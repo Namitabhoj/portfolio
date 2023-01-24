@@ -1,10 +1,7 @@
-console.log("Art_Plus_Code")
 
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links li");
-
-console.log("Art_Plus_Code")
 
 
 // Get all the buttons

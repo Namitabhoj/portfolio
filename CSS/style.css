@@ -228,7 +228,10 @@ section {
   color: #9d9d9d;
   line-height: 37px;
 }
+.left a{
+  text-decoration: none;
 
+}
 .experience{
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -643,7 +646,7 @@ section {
 
 .container_box_two_intro_text {
   padding: 20px 0 0 5px;
-  width: 100%;
+  width: 95%;
   color: #9d9d9d;
   word-spacing: 2px;
   text-align: justify;
@@ -681,8 +684,8 @@ section {
 .left p {
   font-weight: 500; 
   line-height: 25px;
-  padding: 10px ; 
-  font-size: 20px;
+  padding: 15px ; 
+  font-size: 15px;
   color: #9d9d9d;
   line-height: 31px;
 }
@@ -713,12 +716,12 @@ section {
 .experience_texts_company {
   display: flex;
   align-items: baseline;
-  margin: 25px 0 0 0;
+  margin: 25px 0 0 10px;
 }
 
 .experience_texts_duration {
   font-size: 15px;
-  margin: 10px 0;
+  margin: 10px 0 0 10px;
 }
 
 .experience_buttons {
